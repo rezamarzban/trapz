@@ -8,7 +8,7 @@ Trapezoidal rule to calculating integrals
 example:
 
 ```
-python3 trapz.py "2.71**(-1j*x)" 1 1000 10000
+python3 trapz.py "sin(x)*cos(x)*tan(x)*cot(x)*ln(x)*log(x)*sqrt(x)*exp(-1j*x)" 1 10 100
 ```
 
 # quad
@@ -20,5 +20,5 @@ python3 trapz.py "2.71**(-1j*x)" 1 1000 10000
 example:
 
 ```
-python3 quad.py "sin(x)*(2.71**(-1j*x))" 1 10
+python3 quad.py "sin(x)*exp(-1j*x)" 1 10
 ```
