@@ -8,7 +8,7 @@ Trapezoidal rule to calculating integrals
 example:
 
 ```
-python3 trapz.py "sin(x)*cos(x)*tan(x)*cot(x)*ln(x)*log(x)*sqrt(x)*exp(-1j*x)" 1 10 100
+python3 trapz.py "sin(x)*cos(x)*tan(x)*cot(x)*log(x)*log10(x)*sqrt(x)*exp(-1j*x)" 1 10 100
 ```
 
 # quad
