@@ -13,9 +13,9 @@ python3 trapz.py "sin(x)*cos(x)*tan(x)*cot(x)*log(x)*log10(x)*sqrt(x)*exp(-1*x)*
 
 # quad
 
-`quad` is so much better than `trapz`, It compute a definite integral. Integrate func from a to b (possibly infinite interval) using a technique from the Fortran library QUADPACK
+Both of `quad` and `trapz` are numerical method to calculating integrals, But `quad` is so much better than `trapz`, It compute a definite integral. Integrate func from a to b (possibly infinite interval) using a technique from the Fortran library QUADPACK
 
-`python3 quad.py expression a b` calculate integral of expression from a to b.
+`python3 quad.py function a b` calculate integral of function from a to b.
 
 example:
 
