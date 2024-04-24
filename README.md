@@ -14,7 +14,7 @@ python3 trapz.py "sin(x)*cos(x)*tan(x)*cot(x)*log(x)*log10(x)*sqrt(x)*exp(-1*x)*
 It calculate below integral from x=1 to x=10 with n=1000 intervals
 
 $$
-\int \sin(x) \cos(x) \tan(x) \cot(x) \log(x) \log_{10}(x) \sqrt{x} e^{-x} x^{-i x} \ dx
+\int \sin(x) \cos(x) \tan(x) \cot(x) \ln(x) \log(x) \sqrt{x} e^{-x} x^{-i x} \ dx
 $$ 
 
 # quad
@@ -32,5 +32,5 @@ python3 quad.py "sin(x)*cos(x)*tan(x)*cot(x)*log(x)*log10(x)*sqrt(x)*exp(-1*x)*(
 It calculate below integral from x=1 to x=10
 
 $$
-\int \sin(x) \cos(x) \tan(x) \cot(x) \log(x) \log_{10}(x) \sqrt{x} e^{-x} x^{-i x} \ dx
+\int \sin(x) \cos(x) \tan(x) \cot(x) \ln(x) \log(x) \sqrt{x} e^{-x} x^{-i x} \ dx
 $$ 
